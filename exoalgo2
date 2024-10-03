@@ -1,0 +1,19 @@
+DÉBUT
+    ecrire "quel est ta note"
+        lire note
+ 
+    si note >0 et note <5 alors
+        ecrire " >0 et <5"
+
+    sinon si note = 7 ou note = 10 alors
+        ecrire " =7 ou =10"
+    sinon si(note % 20 = 0 ou note = 30) et note < 100 ALORS 
+        ecrire " ok"
+    sinon 
+        ecrire "merci"
+    finsi 
+
+     
+    
+     
+FIN
