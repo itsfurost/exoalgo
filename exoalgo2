@@ -1,5 +1,5 @@
 DÉBUT
-    ecrire "quel est ta note"
+    ecrire "quelle est ta note"
         lire note
  
     si note >0 et note <5 alors
