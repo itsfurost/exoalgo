@@ -1,0 +1,18 @@
+DÉBUT
+    ecrire "quel est ta note"
+     lire note
+ 
+    si note < 10 alors 
+     ecrire " bonjour" 
+
+    sinon si note % 10 = 0 alors 
+     ecrire " a demain"
+    finsi
+    
+    sinonsi note > 10 alors
+     ecrire " aurevoir"
+    finsi
+     
+    
+     
+FIN
